@@ -1,0 +1,42 @@
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: rgb(214, 57, 57);
+    }
+}
+@media only screen and (max-width: 481px) {
+    body {
+        background-color: beige;
+    }
+    .header-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .half-width {
+        width: 100%;
+        padding: 0 0;
+        text-align: justify;
+        justify-content: center;
+    }
+    .right-content img {
+        /* height: 100px;
+        width: 300px; */
+        background-color: palegreen;
+        margin: auto;
+        margin-top: 50px;
+        transition: 2s;
+        transition-duration: 2s;
+    }
+    #Junior {
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+        margin: auto;
+        margin-top: 50px;
+        transition: 2s;
+        transition-duration: 2s;
+    }
+    #Junior:hover {
+        transform: scale(1.5);
+    }
+    
+}
