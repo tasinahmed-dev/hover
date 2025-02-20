@@ -25,4 +25,20 @@
         transition-duration: 2s;
     }
     
+    }
+    @media only screen and (min-width: 620px) {
+        body {
+            background-color: burlywood;
+        }
+        .half-width .button a {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 50px;
+            transition: 2s;
+        }
+        .half-width .button a:hover {
+         transform: scale(1.5) rotate(25deg);
+        }   
+   
 }
